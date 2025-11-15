@@ -1,91 +1,41 @@
-# EX NO 1: Cloud-account-set-up-and-services
+# CLOUD-STORAGE-CREATION-S3-AND-LAUNCHING-AN-EC2-INSTANCE-IN-AWS-
 
-### Name : AGASH S
+# Name: AGASH S
+# Register Number:212224040014
 
-### Reg no: 212224040014
+# AIM :
+To create an AWS account, set up a root user, and create an IAM user with specified permissions.
 
-## Aim:
-To create an cloud account in AWS and to explore all of its services.
+# PROBLEM STATEMENT :
+This experiment involves creating an AWS account, configuring security settings for the root user, and setting up an IAM user. IAM users allow for secure, managed access to AWS resources without exposing the main account's root credentials.
 
-## Procedure
-### Step 1: Go to the AWS Website
-• Visit https://aws.amazon.com
+# Procedure:
+Sign in to the AWS Management Console: • Go to the AWS Management Console and log in with your AWS credentials.
+Navigate to the EC2 Dashboard: • Once logged in, locate and click on the "EC2" service in the AWS Management Console.
+Launch an Instance: • On the EC2 dashboard, click the "Launch Instance" button.
+Choose an AMI (Amazon Machine Image):
+• Select the operating system and software you want to use for your instance (e.g., Amazon Linux, Ubuntu, Windows). • Click "Select" to choose the AMI.
+Choose an Instance Type: • Select the type of instance you need (e.g., t2.micro, m5.large) based on your workload requirements. • Click "Next: Configure Instance Details".
+Configure Instance Details: • Set the number of instances to launch, the availability zone, and other optional settings like networking and security. • Click "Next: Add Storage".
+Configure Storage: • Specify the size and type of storage for your instance. • Click "Next: Add Tags".
+Add Tags (Optional): • Add tags to your instance for easier identification and management. • Click "Next: Configure Security Group".
+Configure Security Group:
+• Choose or create a security group to control inbound and outbound traffic to your instance. • Click "Review and Launch".
+Review and Launch:
+• Review all the configurations and click "Launch".
+Create a Key Pair (if you haven't already): • You'll be prompted to create a new key pair or choose an existing one. • Download the key pair (.pem file) and store it securely.
+Launch the Instance: • Click "Launch Instance" to start the instance creation process.
+Connect to your Instance:
+• Once the instance is running, you can connect to it using SSH (for Linux) or RDP (for Windows). • Use the key pair you downloaded earlier to connect.
 
-• Click “Create an AWS Account” in the top right corner.
+# output
+<img width="1142" height="604" alt="image" src="https://github.com/user-attachments/assets/d65f4f7b-701c-4757-9214-c4ee68a8f31b" />
 
-### Step 2: Enter Account Information
-• Email address – Use a valid email you have access to.
+<img width="1151" height="633" alt="image" src="https://github.com/user-attachments/assets/648cccd7-e6c6-4fa8-a8ca-a52d1e4c5186" />
 
-• Password – Create a strong password.
+<img width="1152" height="593" alt="image" src="https://github.com/user-attachments/assets/efa940ab-f5f9-421b-be5e-ccac608865e0" />
 
-• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
+<img width="1152" height="635" alt="image" src="https://github.com/user-attachments/assets/932bd786-df15-4c2d-9bf9-a9d14229c21d" />
 
-### Step 3: Choose Account Type
-• Personal or Professional – Select based on how you plan to use AWS.
-
-• Fill in your contact information (name, address, phone number).
-
-### Step 4: Enter Payment Information
-• Provide credit/debit card details.
-
-Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
-
-### Step 5: Verify Your Identity
-• Enter your phone number.
-
-• AWS will send a verification code via call or text.
-
-• Enter the code to confirm your identity.
-
-### Step 6: Choose a Support Plan
-Choose one of the following:
-• Basic Support (Free)
-
-• Developer Support
-
-• Business Support
-
-• Enterprise Support
-
-For most beginners, select Basic Support.
-
-### Step 7: Complete the Sign-Up
-• After reviewing all the details, click "Sign Up".
-
-• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
-
-### Step 8: Sign In to AWS Console
-• Go to https://console.aws.amazon.com
-
-• Log in using your email and password to start using AWS services.
-
-
-### Create a user with administrative access
-After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
-
-
-### Secure your AWS account root user
-Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password.
-Turn on multi-factor authentication (MFA) for your root user.
-
-### Create user with administrative access
-Enable IAM Identity Center.
-In IAM Identity Center, grant administrative access to a user.
-
-### Sign in as the user with administrative access
-To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
-
-
-### Services Overview:
-• Explore all the available services in AWS platform.
-
-## Output:
-<img width="1912" height="1185" alt="Screenshot 2025-10-25 at 11 29 01 AM" src="https://github.com/user-attachments/assets/ee97dd58-68d2-4240-93e1-0b554d1af668" />
-
-<img width="1912" height="1185" alt="Screenshot 2025-10-25 at 11 29 41 AM" src="https://github.com/user-attachments/assets/8aa51697-8f3e-4af1-83db-36ab6ab8f802" />
-
-
-## Result:
-Thus an account was created in AWS platform and all the services were explored.
-
-
+ # RESULT
+The AWS account was successfully created, with set up for the root user . Additionally, an IAM user was created with specified permissions, allowing for secure, controlled access to AWS resources without the use of the root account.
